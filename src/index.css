@@ -1,0 +1,333 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-accent: #ffb800;
+  --color-accent-hover: #e6a600;
+  --color-dark: #0a0a0a;
+  --color-dark-navy: #0b0e14;
+  --color-dark-card: #111827;
+  --color-page: #ffffff;
+  --color-card: #ffffff;
+  --color-input: #ffffff;
+  --color-body: #666666;
+  --color-heading: #1a1a1a;
+  --color-muted: #9ca3af;
+  --color-border: #e5e7eb;
+  --color-surface: #f9fafb;
+  --color-light-navy: #151b28;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+
+  --breakpoint-xs: 375px;
+  --breakpoint-sm: 425px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1200px;
+}
+
+@layer base {
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--font-sans);
+    color: var(--color-body);
+    background: var(--color-page);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
+  }
+
+  .dark {
+    --color-page: #0b0e14;
+    --color-card: #141a24;
+    --color-input: #1a2230;
+    --color-surface: #111827;
+    --color-heading: #f3f4f6;
+    --color-body: #9ca3af;
+    --color-muted: #8b95a5;
+    --color-border: #2a3444;
+  }
+
+  #root {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  button {
+    font-family: inherit;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+@layer utilities {
+  .container-site {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 16px;
+  }
+
+  @media (min-width: 375px) {
+    .container-site {
+      padding-inline: 20px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .container-site {
+      padding-inline: 32px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container-site {
+      padding-inline: 40px;
+    }
+  }
+
+  .section-pad {
+    padding-block: 3rem;
+  }
+
+  @media (min-width: 768px) {
+    .section-pad {
+      padding-block: 4rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .section-pad {
+      padding-block: 6rem;
+    }
+  }
+
+  .logo-marquee-track {
+    animation: marquee-scroll 35s linear infinite;
+  }
+
+  .logo-marquee:hover .logo-marquee-track {
+    animation-play-state: paused;
+  }
+
+  @keyframes marquee-scroll {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(1.5rem);
+    transition:
+      opacity 0.7s ease,
+      transform 0.7s ease;
+  }
+
+  .animate-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .animate-hero {
+    animation: hero-enter 0.9s ease-out both;
+  }
+
+  .animate-hero-delay-1 {
+    animation: hero-enter 0.9s ease-out 0.15s both;
+  }
+
+  .animate-hero-delay-2 {
+    animation: hero-enter 0.9s ease-out 0.3s both;
+  }
+
+  .hover-lift {
+    transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-4px);
+
+  }
+
+
+  .btn-smooth {
+    transition:
+      transform 0.25s ease,
+      background-color 0.25s ease,
+      color 0.25s ease,
+      border-color 0.25s ease,
+      box-shadow 0.25s ease;
+  }
+
+  .btn-smooth:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255, 184, 0, 0.25);
+  }
+
+  .btn-smooth:active {
+    transform: translateY(0);
+    box-shadow: none;
+  }
+
+  @keyframes hero-enter {
+    from {
+      opacity: 0;
+      transform: translateY(1.5rem);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animate-on-scroll {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+
+    .animate-hero,
+    .animate-hero-delay-1,
+    .animate-hero-delay-2 {
+      animation: none;
+    }
+
+    .hover-lift:hover,
+    .btn-smooth:hover {
+      transform: none;
+      box-shadow: none;
+    }
+  }
+
+  .hero-stats-divider {
+    background: rgba(255, 255, 255, 0.12);
+  }
+
+  .hero-stats-divider--v-mobile {
+    width: 1px;
+    height: 58%;
+  }
+
+  .hero-stats-divider--h-mobile {
+    width: 72%;
+    height: 1px;
+  }
+
+  .hero-stats-divider--v-desktop {
+    width: 1px;
+    height: 58%;
+  }
+}
+
+.footer-social-link {
+  color: var(--social-color);
+  background-color: color-mix(in srgb, var(--social-color) 18%, transparent);
+}
+
+.footer-social-link:hover:not(.footer-social-link--gradient) {
+  background-color: color-mix(in srgb, var(--social-color) 32%, transparent);
+}
+
+.footer-social-link--gradient {
+  color: #ffffff;
+  background-color: transparent;
+  background-image: var(--social-gradient);
+}
+
+.footer-social-link--gradient:hover {
+  filter: brightness(1.12);
+}
+
+.dark .partner-logo-shell {
+  border-radius: 0.375rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 0.375rem 0.75rem;
+}
+
+.site-logo {
+  filter: brightness(1.2) contrast(1.08);
+}
+
+/* Team card hover — outside @layer so it always wins */
+.team-card__photo {
+  position: relative;
+  padding: 3px;
+  border-radius: 0.75rem;
+  background: transparent;
+  cursor: pointer;
+  transition:
+    box-shadow 0.4s ease,
+    background 0.4s ease;
+}
+
+.team-card__hover-zone {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.team-card__photo-inner {
+  overflow: hidden;
+  border-radius: 9px;
+  background: var(--color-card);
+  pointer-events: none;
+}
+
+.team-card__photo-inner img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  transform: scale(1);
+  transform-origin: center center;
+  transition: transform 0.5s ease-out;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.team-card__photo:hover {
+  background: linear-gradient(135deg, #ffb800 0%, rgba(255, 184, 0, 0.45) 100%);
+  box-shadow:
+    0 0 0 2px rgba(255, 184, 0, 0.5),
+    0 12px 36px rgba(255, 184, 0, 0.4);
+}
+
+.team-card__photo:hover .team-card__photo-inner img {
+  transform: scale(1.1);
+}
