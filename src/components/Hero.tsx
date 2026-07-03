@@ -9,7 +9,7 @@ const statIcons = [Users, Rocket, Globe, ShieldCheck]
 function StatsBar({ className = '' }: { className?: string }) {
   return (
     <div
-      className={`rounded-xl border border-white/10 bg-light-navy/70 p-4 backdrop-blur-md sm:rounded-2xl sm:p-5 min-[768px]:px-4 min-[768px]:py-4 lg:p-6 ${className}`}
+      className={`rounded-xl border border-white/10 bg-light-navy/0 p-4 backdrop-blur-md sm:rounded-2xl sm:p-5 min-[768px]:px-4 min-[768px]:py-4 lg:p-6 ${className}`}
     >
       <div className="hero-stats-grid relative grid grid-cols-2 gap-x-3 gap-y-5 min-[768px]:grid-cols-4 min-[768px]:gap-x-0 min-[768px]:gap-y-0 lg:gap-0">
         {heroStats.map((stat, i) => {
