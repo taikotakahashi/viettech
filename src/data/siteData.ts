@@ -241,7 +241,7 @@ export const team = [
 
 export const contactInfo = {
   heading: "We're Here to Help You",
-  email: 'melixpelix023@gmail.com',
+  email: 'pelixphilip@gmail.com',
   phone: '+1 (234) 567-890',
   whatsapp: '+1 (234) 567-890',
   address: '120 Broadway, New York, NY 10271, United States',
