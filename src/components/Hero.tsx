@@ -1,5 +1,5 @@
 import { Users, Rocket, Globe, ShieldCheck } from 'lucide-react'
-import { ASSETS } from '../assets'
+// import { ASSETS } from '../assets'
 import { heroStats } from '../data/siteData'
 import { ArrowButton, Container } from './ui/Shared'
 import { CountUp } from './ui/Animate'
