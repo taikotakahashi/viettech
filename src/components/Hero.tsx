@@ -77,7 +77,7 @@ export function Hero() {
       >
         <source src={ASSETS.heroVideo} type="video/webm" />
       </video>
-      <div className="absolute inset-0 bg-gradient-to-b from-dark/85 via-dark/70 to-dark/90" />
+      {/* <div className="absolute inset-0 bg-gradient-to-b from-dark/85 via-dark/70 to-dark/90" /> */}
 
       <Container className="relative z-10 flex min-h-[100svh] flex-col justify-center pt-[4.5rem] pb-8 sm:pt-20 sm:pb-10 min-[768px]:justify-center min-[768px]:gap-10 lg:justify-between lg:gap-0 lg:pt-24 lg:pb-25">
         <div className="max-w-3xl py-6 sm:py-8 min-[768px]:max-w-lg min-[768px]:py-0 lg:max-w-2xl lg:py-25">
