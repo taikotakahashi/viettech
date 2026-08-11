@@ -20,9 +20,9 @@ import project4 from './masonry-portfolio/masonry-portfolio-4.jpg'
 import project5 from './masonry-portfolio/masonry-portfolio-5.jpg'
 
 import team1 from './team/ceo.png'
-import team2 from './team/project manager.jpg'
-import team3 from './team/software architect.jpg'
-import team4 from './team/ui ux designer.png'
+import team2 from './team/project_manager.jpg'
+import team3 from './team/software_architect.jpg'
+import team4 from './team/ui_ux_designer.png'
 
 import testimonial1 from './testimonials/testimonials-1.jpg'
 import testimonial2 from './testimonials/testimonials-2.jpg'
