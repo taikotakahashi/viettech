@@ -25,7 +25,7 @@ import team3 from './team/software_architect.jpg'
 import team4 from './team/ui_ux_designer.png'
 
 import testimonial1 from './testimonials/testimonials-1.jpg'
-import testimonial2 from './testimonials/testimonials-2.jpg'
+import testimonial2 from './testimonials/veronica.jpg'
 import testimonial3 from './testimonials/testimonials-3.jpg'
 
 export const ASSETS = {
