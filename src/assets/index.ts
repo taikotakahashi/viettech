@@ -19,7 +19,7 @@ import project3 from './masonry-portfolio/masonry-portfolio-3.jpg'
 import project4 from './masonry-portfolio/masonry-portfolio-4.jpg'
 import project5 from './masonry-portfolio/masonry-portfolio-5.jpg'
 
-import team1 from './team/team-1.jpg'
+import team1 from './team/ceo.png'
 import team2 from './team/team-2.jpg'
 import team3 from './team/team-3.jpg'
 import team4 from './team/team-4.jpg'
