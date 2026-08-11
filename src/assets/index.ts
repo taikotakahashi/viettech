@@ -19,7 +19,7 @@ import project3 from './masonry-portfolio/3.webp'
 import project4 from './masonry-portfolio/4.webp'
 import project5 from './masonry-portfolio/5.webp'
 
-import team1 from './team/ceo.png'
+import team1 from './team/ceo.jpg'
 import team2 from './team/project_manager.jpg'
 import team3 from './team/software_architect.jpg'
 import team4 from './team/ui_ux_designer.jpg'
