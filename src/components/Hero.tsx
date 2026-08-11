@@ -82,7 +82,7 @@ export function Hero() {
       <Container className="relative z-10 flex min-h-[100svh] flex-col justify-center pt-[4.5rem] pb-8 sm:pt-20 sm:pb-10 min-[768px]:justify-center min-[768px]:gap-10 lg:justify-between lg:gap-0 lg:pt-24 lg:pb-25">
         <div className="max-w-3xl py-6 sm:py-8 min-[768px]:max-w-lg min-[768px]:py-0 lg:max-w-2xl lg:py-25">
           <h1 className="animate-hero text-[1.625rem] leading-[1.15] font-extrabold text-white min-[375px]:text-[1.875rem] min-[425px]:text-[2.125rem] sm:text-4xl min-[768px]:text-[2.5rem] min-[768px]:leading-[1.2] lg:text-5xl xl:text-[3.5rem] xl:leading-[1.1]">
-            Building Innovative Software That{' '}
+            Building Innovative Software Thasadast{' '}
             <span className="text-accent">Accelerates Your Business</span>
           </h1>
           <p className="animate-hero-delay-1 mt-4 max-w-xl text-[13px] leading-relaxed text-white/80 min-[375px]:text-sm sm:mt-5 sm:text-base min-[768px]:mt-5 min-[768px]:max-w-lg min-[768px]:text-[15px] lg:mt-6 lg:max-w-xl lg:text-lg">
