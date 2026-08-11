@@ -1,5 +1,5 @@
 import { Users, Rocket, Globe, ShieldCheck } from 'lucide-react'
-// import { ASSETS } from '../assets'
+import { ASSETS } from '../assets'
 import { heroStats } from '../data/siteData'
 import { ArrowButton, Container } from './ui/Shared'
 import { CountUp } from './ui/Animate'
@@ -66,7 +66,7 @@ export function Hero() {
       id="home"
       className="relative min-h-[100svh] overflow-hidden bg-dark"
     >
-      {/* <video
+      <video
         className="absolute inset-0 h-full w-full object-cover"
         autoPlay
         muted
@@ -76,7 +76,7 @@ export function Hero() {
         aria-hidden="true"
       >
         <source src={ASSETS.heroVideo} type="video/webm" />
-      </video> */}
+      </video>
       <div className="absolute inset-0 bg-gradient-to-b from-dark/85 via-dark/70 to-dark/90" />
 
       <Container className="relative z-10 flex min-h-[100svh] flex-col justify-center pt-[4.5rem] pb-8 sm:pt-20 sm:pb-10 min-[768px]:justify-center min-[768px]:gap-10 lg:justify-between lg:gap-0 lg:pt-24 lg:pb-25">

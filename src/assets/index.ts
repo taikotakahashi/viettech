@@ -1,5 +1,5 @@
 import heroBg from './hero-bg.jpg'
-import heroVideo from './hero-video.webm'
+import heroVideo from './hero-video-update.webm'
 import aboutImage from './about.jpg'
 import ctaBg from './cta-bg.jpg'
 import logo from './logo-updaate.png'
