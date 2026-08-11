@@ -198,7 +198,7 @@ export const testimonials = [
     quote:
       'The quality of code and attention to detail is outstanding. They didn’t just “build features”—they improved our architecture, added sensible testing, and helped our internal team level up with clear documentation and handover sessions. When we hit a release deadline, they coordinated seamlessly across time zones and kept everything stable in production. They became a true extension of our team.',
     name: 'Veronica Moyano',
-    title: 'CTO, TechStart Inc.',
+    title: 'CEO, TechStart Inc.',
     avatar: ASSETS.testimonials[1],
     date: 'January 28, 2026',
   },

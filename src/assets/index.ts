@@ -22,7 +22,7 @@ import project5 from './masonry-portfolio/masonry-portfolio-5.jpg'
 import team1 from './team/ceo.png'
 import team2 from './team/project_manager.jpg'
 import team3 from './team/software_architect.jpg'
-import team4 from './team/ui_ux_designer.png'
+import team4 from './team/ui_ux_designer.jpg'
 
 import testimonial1 from './testimonials/testimonials-1.jpg'
 import testimonial2 from './testimonials/veronica.jpg'
