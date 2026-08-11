@@ -2,7 +2,7 @@ import heroBg from './hero-bg.jpg'
 import heroVideo from './hero-video-update.mp4'
 import aboutImage from './about.jpg'
 import ctaBg from './cta-bg.jpg'
-import logo from './logo-update.png'
+import logo from './logo.png'
 
 import client1 from './clients/client-1.png'
 import client2 from './clients/client-2.png'
