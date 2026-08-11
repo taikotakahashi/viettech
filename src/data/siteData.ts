@@ -61,25 +61,25 @@ export const projects = [
   {
     title: 'Idelic: AI-enabled safety intelligence for large-scale fleet operations',
     description:
-      'AgileEngine introduced critical data and architecture solutions to a leading fleet safety platform trusted by Dot Foods and Dollar General. The platform enables commercial trucking enterprises to unify data from dozens of sources, predict accidents with 90% accuracy, and mitigate operational risk. The fleets leveraging this technology have successfully reduced accidents by an average of 20% within 12 months.',
+      'AgileEngine introduced critical data and architecture solutions to a leading fleet safety platform trusted by Dot Foods and Dollar General. The platform enables commercial trucking enterprises to unify data from dozens of sources, predict accidents with 90% accuracy, and mitigate operational risk.',
     image: ASSETS.projects[0],
   },
   {
     title: 'TechStyle: UI architecture, DevOps, and custom e-commerce tools Comment end',
     description:
-      'An omnichannel retail company with 5 million subscribers, TechStyle Fashion Group is renowned for its collaborations with A-list celebrities like Rihanna and Kate Hudson. What really sets TechStyle apart, though, is its end-to-end technology platform that, which enables the rapid creation of online brands based on market data. Our experts modernized this platform, making it much more scalable and versatile.',
+      'An omnichannel retail company with 5 million subscribers, TechStyle Fashion Group is renowned for its collaborations with A-list celebrities like Rihanna and Kate Hudson. What really sets TechStyle apart, though, is its end-to-end technology platform that, which enables the rapid creation of online brands based on market data.',
     image: ASSETS.projects[1],
   },
   {
     title: 'AI/ML-powered predictive maintenance for tens of thousands of EVs',
     description:
-      'AgileEngine creates custom AI and data solutions for an AI startup launched in collaboration with a top-5 luxury car brand featured on the Fortune Global 500 list. The main focus of this collaboration is an ML-as-a-service platform streamlining electric vehicles manufacturing and maintenance. Our team helped ensure that the core AI/ML systems underlying the platform can reliably predict vehicle failures with unparalleled accuracy.',
+      'AgileEngine creates custom AI and data solutions for an AI startup launched in collaboration with a top-5 luxury car brand featured on the Fortune Global 500 list. The main focus of this collaboration is an ML-as-a-service platform streamlining electric vehicles manufacturing and maintenance.',
     image: ASSETS.projects[2],
   },
   {
     title: 'Starz: ML and data solutions for a premium TV network',
     description:
-      'A premium US television network reaching 28 million American households works with AgileEngine on business-critical data systems and experimental AI features. Our Data Studio experts modernized the company’s data pipelines, introducing automation and standardization to core data engineering workflows. Thanks to our AI team, the company was able to rapidly develop proof-of-concept AI-driven MarTech while saving engineering costs.',
+      'A premium US television network reaching 28 million American households works with AgileEngine on business-critical data systems and experimental AI features. Our Data Studio experts modernized the company’s data pipelines, introducing automation and standardization to core data engineering workflows.',
     image: ASSETS.projects[3],
   },
   {
