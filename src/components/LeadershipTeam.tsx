@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa6'
+// import { FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa6'
 import { team } from '../data/siteData'
 import { SectionLabel, Container } from './ui/Shared'
 import { FadeIn } from './ui/Animate'
