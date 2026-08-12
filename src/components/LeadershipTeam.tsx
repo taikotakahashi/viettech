@@ -36,7 +36,7 @@ function TeamMemberCard({ member }: { member: TeamMember }) {
       <p className="mt-2 hidden text-xs leading-relaxed text-body lg:block">
         {member.bio}
       </p>
-      <div className="mt-2 hidden items-center gap-2 lg:mt-3 lg:flex">
+      {/* <div className="mt-2 hidden items-center gap-2 lg:mt-3 lg:flex">
         {[FaLinkedin, FaTwitter, FaGithub].map((Icon, i) => (
           <a
             key={i}
@@ -46,7 +46,7 @@ function TeamMemberCard({ member }: { member: TeamMember }) {
             <Icon size={14} />
           </a>
         ))}
-      </div>
+      </div> */}
     </article>
   )
 }
